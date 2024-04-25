@@ -1,0 +1,612 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2761
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \{\
+    "frames": \{\
+        "study-intro": \{\
+            "kind": "exp-lookit-instructions",\
+            "blocks": [\
+                \{\
+                    "title": "",\
+                    "listblocks": [\
+                        \{\
+                            "text": "Here, I\'92m imagining a brief page where we insert some info to clarify that this is now a different task, and briefly explain to parents what will happen next?"\
+                        \}\
+                    ]\
+                \},\
+                \{\
+                    "title": "Overview of the study:",\
+                    "listblocks": [\
+                        \{\
+                            "text": "[Insert brief overview of what the study will include here]"\
+                        \}\
+                    ]\
+                \},\
+                \{\
+                    "title": "Next steps:",\
+                    "listblocks": [\
+                        \{\
+                            "text": "Because this is an online study, we will next check to ensure that your webcam is set up properly to record your child\'92s responses."\
+                        \},\
+                        \{\
+                            "text": "Then, you will have a chance to review the consent information, and we will ask you to record a short video of yourself providing consent to participate in this study."\
+                        \},\
+                        \{\
+                            "text": "Finally, you will be given some more detailed instructions about what to do during the experiment, and then we\'92ll start!"\
+                        \}\
+                    ]\
+                \}\
+            ],\
+            "showWebcam": false,\
+            "nextButtonText": "Next"\
+        \},\
+        "exit-survey": \{\
+            "kind": "exp-lookit-exit-survey",\
+            "debriefing": \{\
+                "title": "Thank you for participating!",\
+                "blocks": [\
+                    \{\
+                        "title": "",\
+                        "text": "This research wouldn't be possible without awesome parents like you."\
+                    \},\
+                    \{\
+                        "title": "Some Background Information:",\
+                        "text": "Children see people communicating around them all the time. This study asks how children reason about people based on how they communicate and interact with one another. When one person\'92s communication causes another person to succeed at at ask, as adults, you might think that person was knowledgeable about the task, even if you couldn\'92t hear what they said. This study examines if children reason in a similar way."\
+                    \},\
+                    \{\
+                        "title": "Links for discussing topics with your child:",\
+                        "text": "<a target='_blank' href=https://www.storylineonline.net/books/when-a-dragon-moves-in/>A read aloud of a story about telling the truth.</a>\\n<a target='_blank' href=https://www.storylineonline.net/books/chesters-way/>A read aloud of a story about cooperation.</a>\\n<a target='_blank' href=https://www.storylineonline.net/books/the-rainbow-fish/>A read aloud of a story about sharing.</a>\\n<a target='_blank' href=https://www.storylineonline.net/books/the-coal-thief/>A read aloud of a story about breaking the rules.</a>\\n<a target='_blank' href=https://www.storylineonline.net/books/carlas-sandwich/>A read aloud of a story about name calling.</a>"\
+                    \},\
+                    \{\
+                        "title": "Compensation:",\
+                        "text": "To thank you for your participation, we'll be emailing you a $5 Amazon gift card - this should arrive in your inbox within the next week after we confirm your consent video and check that your child is in the age range for this study (If you don't hear from us by then, feel free to reach out!). If you participate again with another child in the age range, you'll receive one gift card per child."\
+                    \},\
+                    \{\
+                        "title": "Questions or Concerns:",\
+                        "text": "Please do not hesitate to contact Adani Abutto, aabutto@stanford.edu."\
+                    \}\
+                ]\
+            \}\
+        \},\
+        "story-alldone": \{\
+            "kind": "exp-lookit-images-audio",\
+            "baseDir": "https://raw.githubusercontent.com/adaniabutto/beliefhesitancy-stimuli/main/shared/",\
+            "audioTypes": [\
+                "mp3",\
+                "ogg"\
+            ],\
+            "autoProceed": false,\
+            "images": [\
+                \{\
+                    "src": "thank_you.png",\
+                    "position": "fill"\
+                \}\
+            ]\
+        \},\
+        "start-recording": \{\
+            "kind": "exp-lookit-start-recording",\
+            "imageAnimation": "spin",\
+            "displayFullscreen": true\
+        \},\
+        "stop-recording": \{\
+            "kind": "exp-lookit-stop-recording",\
+            "imageAnimation": "spin",\
+            "displayFullscreen": true\
+        \},\
+        "trials": \{\
+            "kind": "choice",\
+            "sampler": "random-parameter-set",\
+            "frameList": [\
+                \{\
+                    "kind": "exp-lookit-images-audio",\
+                    "baseDir": "https://raw.githubusercontent.com/adaniabutto/beliefhesitancy-stimuli/main/biological/",\
+                    "audio": "predicate_alive",\
+                    "audioTypes": [\
+                        "mp3",\
+                        "ogg"\
+                    ],\
+                    "images": [\
+                        \{\
+                            "src": "predicate_alive.png",\
+                            "position": "fill"\
+                        \}\
+                    ],\
+                    "autoProceed": false,\
+                    "showCursor": true,\
+                    "parentTextBlock": \{\
+                        "text": "[Some text]",\
+                        "title": "For parents"\
+                    \}\
+                \},\
+                \{\
+                    "sampler": "permute",\
+                    "kind": "choice",\
+                    "commonFrameProperties": \{\
+                        "kind": "exp-lookit-images-audio",\
+                        "baseDir": "https://raw.githubusercontent.com/adaniabutto/beliefhesitancy-stimuli/main/biological/",\
+                        "audioTypes": [\
+                            "mp3",\
+                            "ogg"\
+                        ],\
+                        "autoProceed": false,\
+                        "choiceRequired": true,\
+                        "showCursor": true,\
+                        "canMakeChoiceBeforeAudioFinished": false,\
+                        "allowUserPause": true,\
+                        "parentTextBlock": \{\
+                            "css": \{\
+                                "font-size": "1.25em"\
+                            \},\
+                            "text": "Please help keep your child's attention, but don't talk with him or her about which things are alive! As soon as your child begins to speak, click the response.",\
+                            "title": "For parents"\
+                        \}\
+                    \},\
+                    "frameOptions": [\
+                        \{\
+                            "audio": "statement_alive_cat",\
+                            "images": [\
+                                \{\
+                                    "src": "statement_alive_cat.png",\
+                                    "nonChoiceOption": true,\
+                                    "position": "fill",\
+                                    "width": 80\
+                                \},\
+                                \{\
+                                    "src": "yes_button.png",\
+                                    "nonChoiceOption": false,\
+                                    "displayDelayMs": 2500,\
+                                    "position": "left",\
+                                    "width": 10\
+                                \},\
+                                \{\
+                                    "src": "no_button.png",\
+                                    "nonChoiceOption": false,\
+                                    "displayDelayMs": 2500,\
+                                    "position": "right",\
+                                    "width": 10\
+                                \}\
+                            ]\
+                        \},\
+                        \{\
+                            "audio": "statement_alive_cloud",\
+                            "images": [\
+                                \{\
+                                    "src": "statement_alive_cloud.png",\
+                                    "nonChoiceOption": true,\
+                                    "position": "fill",\
+                                    "width": 80\
+                                \},\
+                                \{\
+                                    "src": "yes_button.png",\
+                                    "nonChoiceOption": false,\
+                                    "displayDelayMs": 2500,\
+                                    "position": "left",\
+                                    "width": 10\
+                                \},\
+                                \{\
+                                    "src": "no_button.png",\
+                                    "nonChoiceOption": false,\
+                                    "displayDelayMs": 2500,\
+                                    "position": "right",\
+                                    "width": 10\
+                                \}\
+                            ]\
+                        \},\
+                        \{\
+                            "audio": "statement_alive_desk",\
+                            "images": [\
+                                \{\
+                                    "src": "statement_alive_desk.png",\
+                                    "nonChoiceOption": true,\
+                                    "position": "fill",\
+                                    "width": 80\
+                                \},\
+                                \{\
+                                    "src": "yes_button.png",\
+                                    "nonChoiceOption": false,\
+                                    "displayDelayMs": 2500,\
+                                    "position": "left",\
+                                    "width": 10\
+                                \},\
+                                \{\
+                                    "src": "no_button.png",\
+                                    "nonChoiceOption": false,\
+                                    "displayDelayMs": 2500,\
+                                    "position": "right",\
+                                    "width": 10\
+                                \}\
+                            ]\
+                        \},\
+                        \{\
+                            "audio": "statement_alive_flower",\
+                            "images": [\
+                                \{\
+                                    "src": "statement_alive_flower.png",\
+                                    "nonChoiceOption": true,\
+                                    "position": "fill",\
+                                    "width": 80\
+                                \},\
+                                \{\
+                                    "src": "yes_button.png",\
+                                    "nonChoiceOption": false,\
+                                    "displayDelayMs": 2500,\
+                                    "position": "left",\
+                                    "width": 10\
+                                \},\
+                                \{\
+                                    "src": "no_button.png",\
+                                    "nonChoiceOption": false,\
+                                    "displayDelayMs": 2500,\
+                                    "position": "right",\
+                                    "width": 10\
+                                \}\
+                            ]\
+                        \},\
+                        \{\
+                            "audio": "statement_alive_rabbit",\
+                            "images": [\
+                                \{\
+                                    "src": "statement_alive_rabbit.png",\
+                                    "nonChoiceOption": true,\
+                                    "position": "fill",\
+                                    "width": 80\
+                                \},\
+                                \{\
+                                    "src": "yes_button.png",\
+                                    "nonChoiceOption": false,\
+                                    "displayDelayMs": 2500,\
+                                    "position": "left",\
+                                    "width": 10\
+                                \},\
+                                \{\
+                                    "src": "no_button.png",\
+                                    "nonChoiceOption": false,\
+                                    "displayDelayMs": 2500,\
+                                    "position": "right",\
+                                    "width": 10\
+                                \}\
+                            ]\
+                        \},\
+                        \{\
+                            "audio": "statement_alive_river",\
+                            "images": [\
+                                \{\
+                                    "src": "statement_alive_river.png",\
+                                    "nonChoiceOption": true,\
+                                    "position": "fill",\
+                                    "width": 80\
+                                \},\
+                                \{\
+                                    "src": "yes_button.png",\
+                                    "nonChoiceOption": false,\
+                                    "displayDelayMs": 2500,\
+                                    "position": "left",\
+                                    "width": 10\
+                                \},\
+                                \{\
+                                    "src": "no_button.png",\
+                                    "nonChoiceOption": false,\
+                                    "displayDelayMs": 2500,\
+                                    "position": "right",\
+                                    "width": 10\
+                                \}\
+                            ]\
+                        \},\
+                        \{\
+                            "audio": "statement_alive_rock",\
+                            "images": [\
+                                \{\
+                                    "src": "statement_alive_rock.png",\
+                                    "nonChoiceOption": true,\
+                                    "position": "fill",\
+                                    "width": 80\
+                                \},\
+                                \{\
+                                    "src": "yes_button.png",\
+                                    "nonChoiceOption": false,\
+                                    "displayDelayMs": 2500,\
+                                    "position": "right",\
+                                    "width": 10\
+                                \},\
+                                \{\
+                                    "src": "no_button.png",\
+                                    "nonChoiceOption": false,\
+                                    "displayDelayMs": 2500,\
+                                    "position": "right",\
+                                    "width": 10\
+                                \}\
+                            ]\
+                        \},\
+                        \{\
+                            "audio": "statement_alive_tree",\
+                            "images": [\
+                                \{\
+                                    "src": "statement_alive_tree.png",\
+                                    "nonChoiceOption": true,\
+                                    "position": "fill",\
+                                    "width": 80\
+                                \},\
+                                \{\
+                                    "src": "yes_button.png",\
+                                    "nonChoiceOption": false,\
+                                    "displayDelayMs": 2500,\
+                                    "position": "left",\
+                                    "width": 10\
+                                \},\
+                                \{\
+                                    "src": "no_button.png",\
+                                    "nonChoiceOption": false,\
+                                    "displayDelayMs": 2500,\
+                                    "position": "right",\
+                                    "width": 10\
+                                \}\
+                            ]\
+                        \}\
+                    ]\
+                \},\
+                \{\
+                    "kind": "exp-lookit-images-audio",\
+                    "baseDir": "https://raw.githubusercontent.com/adaniabutto/beliefhesitancy-stimuli/main/physical/",\
+                    "audio": "predicate_space",\
+                    "audioTypes": [\
+                        "mp3",\
+                        "ogg"\
+                    ],\
+                    "images": [\
+                        \{\
+                            "src": "predicate_space.png",\
+                            "position": "fill"\
+                        \}\
+                    ],\
+                    "autoProceed": false,\
+                    "showCursor": true,\
+                    "parentTextBlock": \{\
+                        "text": "[Some text]",\
+                        "title": "For parents"\
+                    \}\
+                \},\
+                \{\
+                    "sampler": "permute",\
+                    "kind": "choice",\
+                    "commonFrameProperties": \{\
+                        "kind": "exp-lookit-images-audio",\
+                        "baseDir": "https://raw.githubusercontent.com/adaniabutto/beliefhesitancy-stimuli/main/physical/",\
+                        "audioTypes": [\
+                            "mp3",\
+                            "ogg"\
+                        ],\
+                        "autoProceed": false,\
+                        "choiceRequired": true,\
+                        "showCursor": true,\
+                        "canMakeChoiceBeforeAudioFinished": false,\
+                        "allowUserPause": true,\
+                        "parentTextBlock": \{\
+                            "css": \{\
+                                "font-size": "1.25em"\
+                            \},\
+                            "text": "Please help keep your child's attention, but don't talk with him or her about which things take up space! As soon as your child begins to speak, click the response.",\
+                            "title": "For parents"\
+                        \}\
+                    \},\
+                    "frameOptions": [\
+                        \{\
+                            "audio": "statement_space_air",\
+                            "images": [\
+                                \{\
+                                    "src": "statement_space_air.png",\
+                                    "nonChoiceOption": true,\
+                                    "position": "fill",\
+                                    "width": 80\
+                                \},\
+                                \{\
+                                    "src": "yes_button.png",\
+                                    "nonChoiceOption": false,\
+                                    "displayDelayMs": 2500,\
+                                    "position": "left",\
+                                    "width": 10\
+                                \},\
+                                \{\
+                                    "src": "no_button.png",\
+                                    "nonChoiceOption": false,\
+                                    "displayDelayMs": 2500,\
+                                    "position": "right",\
+                                    "width": 10\
+                                \}\
+                            ]\
+                        \},\
+                        \{\
+                            "audio": "statement_space_happiness",\
+                            "images": [\
+                                \{\
+                                    "src": "statement_space_happiness.png",\
+                                    "nonChoiceOption": true,\
+                                    "position": "fill",\
+                                    "width": 80\
+                                \},\
+                                \{\
+                                    "src": "yes_button.png",\
+                                    "nonChoiceOption": false,\
+                                    "displayDelayMs": 2500,\
+                                    "position": "left",\
+                                    "width": 10\
+                                \},\
+                                \{\
+                                    "src": "no_button.png",\
+                                    "nonChoiceOption": false,\
+                                    "displayDelayMs": 2500,\
+                                    "position": "right",\
+                                    "width": 10\
+                                \}\
+                            ]\
+                        \},\
+                        \{\
+                            "audio": "statement_space_ideas",\
+                            "images": [\
+                                \{\
+                                    "src": "statement_space_ideas.png",\
+                                    "nonChoiceOption": true,\
+                                    "position": "fill",\
+                                    "width": 80\
+                                \},\
+                                \{\
+                                    "src": "yes_button.png",\
+                                    "nonChoiceOption": false,\
+                                    "displayDelayMs": 2500,\
+                                    "position": "left",\
+                                    "width": 10\
+                                \},\
+                                \{\
+                                    "src": "no_button.png",\
+                                    "nonChoiceOption": false,\
+                                    "displayDelayMs": 2500,\
+                                    "position": "right",\
+                                    "width": 10\
+                                \}\
+                            ]\
+                        \},\
+                        \{\
+                            "audio": "statement_space_light",\
+                            "images": [\
+                                \{\
+                                    "src": "statement_space_light.png",\
+                                    "nonChoiceOption": true,\
+                                    "position": "fill",\
+                                    "width": 80\
+                                \},\
+                                \{\
+                                    "src": "yes_button.png",\
+                                    "nonChoiceOption": false,\
+                                    "displayDelayMs": 2500,\
+                                    "position": "left",\
+                                    "width": 10\
+                                \},\
+                                \{\
+                                    "src": "no_button.png",\
+                                    "nonChoiceOption": false,\
+                                    "displayDelayMs": 2500,\
+                                    "position": "right",\
+                                    "width": 10\
+                                \}\
+                            ]\
+                        \},\
+                        \{\
+                            "audio": "statement_space_rainbows",\
+                            "images": [\
+                                \{\
+                                    "src": "statement_space_rainbows.png",\
+                                    "nonChoiceOption": true,\
+                                    "position": "fill",\
+                                    "width": 80\
+                                \},\
+                                \{\
+                                    "src": "yes_button.png",\
+                                    "nonChoiceOption": false,\
+                                    "displayDelayMs": 2500,\
+                                    "position": "left",\
+                                    "width": 10\
+                                \},\
+                                \{\
+                                    "src": "no_button.png",\
+                                    "nonChoiceOption": false,\
+                                    "displayDelayMs": 2500,\
+                                    "position": "right",\
+                                    "width": 10\
+                                \}\
+                            ]\
+                        \},\
+                        \{\
+                            "audio": "statement_space_rice",\
+                            "images": [\
+                                \{\
+                                    "src": "statement_space_rice.png",\
+                                    "nonChoiceOption": true,\
+                                    "position": "fill",\
+                                    "width": 80\
+                                \},\
+                                \{\
+                                    "src": "yes_button.png",\
+                                    "nonChoiceOption": false,\
+                                    "displayDelayMs": 2500,\
+                                    "position": "left",\
+                                    "width": 10\
+                                \},\
+                                \{\
+                                    "src": "no_button.png",\
+                                    "nonChoiceOption": false,\
+                                    "displayDelayMs": 2500,\
+                                    "position": "right",\
+                                    "width": 10\
+                                \}\
+                            ]\
+                        \},\
+                        \{\
+                            "audio": "statement_space_sand",\
+                            "images": [\
+                                \{\
+                                    "src": "statement_space_sand.png",\
+                                    "nonChoiceOption": true,\
+                                    "position": "fill",\
+                                    "width": 80\
+                                \},\
+                                \{\
+                                    "src": "yes_button.png",\
+                                    "nonChoiceOption": false,\
+                                    "displayDelayMs": 2500,\
+                                    "position": "left",\
+                                    "width": 10\
+                                \},\
+                                \{\
+                                    "src": "no_button.png",\
+                                    "nonChoiceOption": false,\
+                                    "displayDelayMs": 2500,\
+                                    "position": "right",\
+                                    "width": 10\
+                                \}\
+                            ]\
+                        \},\
+                        \{\
+                            "audio": "statement_space_steam",\
+                            "images": [\
+                                \{\
+                                    "src": "statement_space_steam.png",\
+                                    "nonChoiceOption": true,\
+                                    "position": "fill",\
+                                    "width": 80\
+                                \},\
+                                \{\
+                                    "src": "yes_button.png",\
+                                    "nonChoiceOption": false,\
+                                    "displayDelayMs": 2500,\
+                                    "position": "left",\
+                                    "width": 10\
+                                \},\
+                                \{\
+                                    "src": "no_button.png",\
+                                    "nonChoiceOption": false,\
+                                    "displayDelayMs": 2500,\
+                                    "position": "right",\
+                                    "width": 10\
+                                \}\
+                            ]\
+                        \}\
+                    ]\
+                \}\
+            ],\
+            "parameterSets": [\
+                \{\}\
+            ]\
+        \}\
+    \},\
+    "sequence": [\
+        "study-intro",\
+        "start-recording",\
+        "trials",\
+        "stop-recording",\
+        "story-alldone",\
+        "exit-survey"\
+    ]\
+\}}
